@@ -29,4 +29,8 @@ public class Encounter {
         this.creatures.remove(index);
     }
 
+    public void saveEncounter() {
+
+    }
+
 }

@@ -4,11 +4,13 @@ public class Creature {
     private int HP;
     private int AC;
     private int initiative;
+    private String status;
 
-    public Creature( int HP, int AC, int initiative ) {
+    public Creature( int HP, int AC, int initiative, String status ) {
         this.HP = HP;
         this.AC = AC;
         this.initiative = initiative;
+        this.status = status;
     }
 
     public int getHP() {
