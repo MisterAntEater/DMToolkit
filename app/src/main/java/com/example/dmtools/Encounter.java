@@ -12,5 +12,8 @@ public class Encounter {
         this.index = 0;
     }
 
+    public void saveEncounter() {
+
+    }
 
 }
